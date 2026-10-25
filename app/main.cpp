@@ -324,6 +324,9 @@ public:
 };
 
 int main() {
+    std::string ignoredLine;
+while (std::getline(std::cin, ignoredLine)) {
+}
     std::string filePath = "clean_auth.log.txt";
 
     LogSource source(filePath);
