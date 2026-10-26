@@ -978,6 +978,7 @@ private:
     void printMenuHeader() const {
         std::cout << "\n=========================================================\n";
         std::cout << "             LOGSENTINEL SIEM CONSOLE MENU               \n";
+        std::cout << "             Archived Incidents: " << archivedAlerts_.size() << "\n";
         std::cout << "=========================================================\n";
         std::cout << " [1] Ingest SSH authentication logs from input\n";
         std::cout << " [2] Ingest Firewall packet logs from input\n";
